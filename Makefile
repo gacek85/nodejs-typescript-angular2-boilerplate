@@ -11,3 +11,6 @@ watch:
 
 stop:
 	docker-compose stop
+
+test:
+	gulp test
