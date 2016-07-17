@@ -39,6 +39,7 @@
     "gulp-watch": "^4.3.8",
     "gulp-mocha": "^2.2.0",
     "mocha": "^2.5.3",
+    "chai": "^3.5.0",
     "regenerator": "^0.8.46",
     "run-sequence": "^1.2.2",
     "source-map-support": "^0.4.1",
