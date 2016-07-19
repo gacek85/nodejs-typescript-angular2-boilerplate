@@ -115,7 +115,7 @@ gulp.task('real-compile-app', function () {
 });
 
 gulp.task('restart-app', function() {
-    exec('docker exec nodejstypescriptangular2boilerplate_app_1 "sh /code/bin/restart.sh"', function (err, stdout, stderr) {
+    exec('docker exec nodejstypescriptangular2boilerplate_app_1 "./code/bin/restart.sh"', function (err, stdout, stderr) {
         console.log(stdout);
         console.log(stderr);
     });
