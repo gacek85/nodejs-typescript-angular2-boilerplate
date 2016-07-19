@@ -42,7 +42,7 @@ gulp.task('test', function () {
 });
 
 gulp.task('mocha-tests', function() {
-    return gulp.src('dist/test/**/*.js', {
+    return gulp.src('./dist/application/node_modules/Test/**/*.js', {
         read: false
     })
     .pipe(mocha({ 

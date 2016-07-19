@@ -1,7 +1,7 @@
 import 'zone.js';
 import 'reflect-metadata';
 import Hapi = require('hapi');
-import {registerEndpointContainer} from "./utilities";
+import { registerEndpointContainer } from "./utilities";
 
 const server = new Hapi.Server();
 
